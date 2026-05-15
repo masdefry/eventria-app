@@ -4,9 +4,8 @@ import { FiMenu, FiSearch } from 'react-icons/fi';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { ThemeToggle } from '../toggle-theme';
+import { ThemeToggle } from '../ThemeToggle';
 import Image from 'next/image';
 
 export default function Navbar() {
